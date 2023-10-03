@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les05-oef02</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+        body {
+            font-family: 'Roboto Slab', serif;
+        }
+
+        form {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        div {
+            margin-bottom: 20px;
+        }
+
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 15px;
+            border: 1px solid #ccc;
+            box-shadow: 5px 5px #eee;
+            font-size: 16px;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="post">
+        <div>
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" placeholder="Surname" required>
+        </div>
+        <div>
+            <label for="lastname">Lastname:</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Last name" required>
+        </div>
+        <div>
+            <label for="username">Username:</label>
+            <input type="email" id="username" name="username" placeholder="Username" required>
+        </div>
+        <div>
+            <label for="nickname">Nickname:</label>
+            <input type="text" id="nickname" name="nickname" placeholder="Nickname" required minlength="5" maxlength="15">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+        </div>
+        <div>
+            <label for="rpassword">Repeat password:</label>
+            <input type="password" id="rpassword" name="rpassword" placeholder="Password" required>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
