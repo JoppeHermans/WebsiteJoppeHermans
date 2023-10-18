@@ -8,6 +8,7 @@
 body {
     background-color:#E5E5E5;
     font-family: 'Roboto Slab', serif;
+    
 }
 
 header {
@@ -37,6 +38,13 @@ svg {
     color: #FF6B6B;
 }
 #contact_me_link:hover {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: #740a0a;
+}
+a:hover {
     text-decoration: underline;
 }
 nav {
@@ -113,7 +121,7 @@ form {
     margin: 0 5% 0 5%;
     overflow: hidden;
 }
-h2 {
+h2, h3 {
     margin-bottom: 1.5rem;
     text-align: center;
 }
@@ -139,6 +147,29 @@ article table {
     color: white;
   }
   
+  #my_video {
+    border: 8px solid #FF6B6B;
+    border-radius: 10px;
+    Width: 276px;
+    Height: 600px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+  .two_articles article {
+    
+    border: 3px solid #FF6B6B;
+    background-color: #ffd166;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 20px;
+}
+.two_articles article ul li {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
+}
   
   
   
@@ -162,6 +193,29 @@ article table {
     }
     form {
         width: 75%;
+    }
+    #my_video {
+        float: left;
+        margin-right: 20px;
+        height: 800px;
+        width: 368px;
+    }
+    .two_articles {
+        display: flex;
+    }
+    .two_articles article {
+        display: block;
+        width: 50%;
+        padding: 20px;
+        border: 3px solid #FF6B6B;
+        border-radius: 10px;
+        margin: 1rem;
+        text-align: center;
+    }
+    .two_articles article ul li {
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: left;
     }
 }
 @media screen and (min-width: 1200px) {
