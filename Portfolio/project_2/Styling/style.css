@@ -11,3 +11,18 @@ body {
     
 }
 
+header {
+    background-color: #ffd166;
+}
+
+.navbar {
+    background-color: #FF6B6B;
+    position: fixed;
+    width: 100%;
+    
+}
+.navbar-brand svg {
+    height: 30px;
+    width: auto;
+    display: block; 
+  }
