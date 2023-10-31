@@ -10,16 +10,25 @@ body {
     font-family: 'Roboto Slab', serif;
     
 }
+h1 {
+    margin-bottom: 0;
+}
 
 header {
     background-color: #ffd166;
+    margin-bottom: 0;
+    padding: 20px;
+    border-bottom: 3px solid black;
+
 }
 
 .navbar {
     background-color: #FF6B6B;
-    position: fixed;
+    position: sticky;
     width: 100%;
-    
+    top: 0;
+    border-bottom: 3px solid black;
+   
 }
 .navbar-brand svg {
     height: 30px;
