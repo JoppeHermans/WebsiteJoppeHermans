@@ -8,6 +8,9 @@
 body {
     background-color:#E5E5E5;
     font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     
 }
 p {
@@ -45,4 +48,28 @@ header {
   .navbar-nav .nav-item a:hover {
     color: white;
     text-shadow: 1px 1px 0 black;
+  }
+  main {
+    flex: 1;
+  }
+  footer {
+    height: auto;
+    width: 100%;
+    background-color: #ffd166;
+    border-top: 3px solid black;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    bottom: 0;
+  }
+  footer a, footer p {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .maps {
+    border: 6px solid #FF6B6B;
+    border-radius: 20px;
+  }
+  i {
+    color: #FF6B6B;
   }
