@@ -73,3 +73,6 @@ header {
   i {
     color: #FF6B6B;
   }
+  i:hover {
+    color: #e04747;
+  }
