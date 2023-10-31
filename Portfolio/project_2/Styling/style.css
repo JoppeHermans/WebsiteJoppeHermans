@@ -10,8 +10,14 @@ body {
     font-family: 'Roboto Slab', serif;
     
 }
+p {
+    text-align: justify;
+}
 h1 {
     margin-bottom: 0;
+}
+h2 {
+    text-align: center;
 }
 
 header {
@@ -34,4 +40,9 @@ header {
     height: 30px;
     width: auto;
     display: block; 
+  }
+
+  .navbar-nav .nav-item a:hover {
+    color: white;
+    text-shadow: 1px 1px 0 black;
   }
