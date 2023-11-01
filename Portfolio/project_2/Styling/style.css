@@ -149,3 +149,31 @@ header {
 .custom-caption h5 {
   font-size: 2rem;
 }
+
+.custom_card {
+  background-color: #ffd166;
+  text-align: center;
+}
+.custom_card p {
+  text-align: center;
+}
+#fit_picture{
+  width: 100%;
+  border: 5px solid #FF6B6B;
+  border-radius: 20px;
+}
+.progress {
+  height: 30px;
+  border: 5px solid #FF6B6B;
+  margin: 1rem;
+  background-color: #ffd166;
+}
+.custom_ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.progress-bar {
+  background-color: #FF6B6B; 
+  height: 100%;
+}
