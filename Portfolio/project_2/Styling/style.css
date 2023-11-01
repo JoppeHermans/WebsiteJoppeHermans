@@ -177,3 +177,96 @@ header {
   background-color: #FF6B6B; 
   height: 100%;
 }
+.accordion-item {
+  background-color: #ffd166;
+  border: 6px solid #FF6B6B;
+  border-radius: 20px;
+  z-index: -1;
+}
+.accordion-header {
+  background-color: #FF6B6B;
+}
+.accordion-button {
+  background-color: #ffd166;
+  border: 6px solid #FF6B6B;
+  border-radius: 20px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #FF6B6B; 
+  color: white;
+}
+form {
+  border: 2px solid #FF6B6B;
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+input[type="reset"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #FF6B6B;
+  border-radius: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: #FF6B6B;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #ff4d4d;
+}
+
+table {
+  width: 100%;
+  border: 2px solid #FF6B6B;
+  border-spacing: 0;
+  border-radius: 10px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  border: 1px solid #FF6B6B;
+  padding: 8px;
+  text-align: center;
+  background-color: #ffd166;
+}
+
+th {
+  background-color: #FF6B6B;
+  color: white;
+}
+
+#my_video {
+  border: 8px solid #FF6B6B;
+  border-radius: 10px;
+  Width: 276px;
+  Height: 600px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+a {
+  text-decoration: none;
+  color: #FF6B6B;
+}
+a:hover {
+  color: #e04747;
+  text-decoration: underline ;
+}

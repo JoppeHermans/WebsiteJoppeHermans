@@ -136,8 +136,8 @@
       </div>
     </nav>
     <main class="container">
-      <h2>Hobbies</h2>
-      <div id="carouselExampleCaptions" class="carousel slide">
+      <h2 class="mb-4">Hobbies</h2>
+      <div id="carouselExampleCaptions" class="carousel slide mb-4">
         <div class="carousel-indicators">
           <button
             type="button"
@@ -274,104 +274,203 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <section>
-        <article>
-          <h2>Gym</h2>
-          <p>
-            Gym sessions have become an integral part of my daily routine. The
-            exhilarating rush of endorphins that accompanies a good workout is
-            unmatched. Not only does it keep me physically fit, but it also
-            serves as a great stress buster, allowing me to refocus and
-            re-energize for the day ahead.
-          </p>
-          <img
-            src="Images/pexels-victor-freitas-841130.jpg"
-            alt="Guy deadlifting"
-          />
-        </article>
-        <article>
-          <h2>Bicycling</h2>
-          <h3>To school</h3>
-          <p>
-            Opting for a bicycle as my mode of transportation to school has been
-            both environmentally friendly and health-conscious. It's a
-            refreshing way to kick-start my day, allowing me to enjoy the fresh
-            morning breeze and scenic views along the way, all while reducing my
-            carbon footprint.
-          </p>
-          <h3>For fun</h3>
-          <p>
-            Bicycling for leisure is an exhilarating experience. Exploring
-            picturesque trails and cycling routes has become one of my favorite
-            pastimes. It not only keeps me active but also provides an
-            opportunity to appreciate the beauty of nature and embrace a sense
-            of freedom and adventure.
-          </p>
-        </article>
-        <article>
-          <h2>Hanging out with the boys</h2>
-          <p>
-            Spending quality time with my close-knit group of friends is
-            something I cherish deeply. Whether it's engaging in spirited
-            discussions, playing competitive sports, or simply enjoying each
-            other's company, these moments contribute significantly to my sense
-            of belonging and well-being.
-          </p>
-          <img
-            src="Images/pexels-rachel-claire-5490965.jpg"
-            alt="Picture of a bar"
-          />
-        </article>
-        <article>
-          <h2>Web&nbsp;development</h2>
-          <p>
-            Web development has been a passion of mine since an early age. The
-            ability to create visually appealing and functional websites is a
-            source of endless excitement and satisfaction. From coding to
-            designing, every aspect of the process fuels my creativity and
-            allows me to stay updated with the latest technological
-            advancements, fostering a continuous learning journey.
-          </p>
-          <p>
-            During this past summer, I teamed up with two of my friends to work
-            on an exciting project. We've been developing an engaging online
-            platform for a unique drinking game that infuses traditional party
-            activities with a digital twist. Our aim is to bring people together
-            virtually, creating unforgettable and hilarious moments, even from a
-            distance. To learn more about this project and my other experiences
-            in web development, you can visit my
-            <a href="experience.html">experience</a> tab.
-          </p>
-        </article>
-        <article>
-          <h2>Benefits</h2>
-          <table>
-            <tr>
-              <th>Activity</th>
-              <th>Benefits</th>
-            </tr>
-            <tr>
-              <td>Gym</td>
-              <td>Physical fitness, stress relief</td>
-            </tr>
-            <tr>
-              <td>Bicycling</td>
-              <td>Environmental friendliness, health benefits, adventure</td>
-            </tr>
-            <tr>
-              <td>Hanging out with the boys</td>
-              <td>Social bonding, emotional well-being</td>
-            </tr>
-            <tr>
-              <td>Web development</td>
-              <td>
-                Creative expression, technological advancement, continuous
-                learning
-              </td>
-            </tr>
-          </table>
-        </article>
-      </section>
+
+      <div class="accordion mb-4" id="accordionExample">
+        <div class="accordion-item mb-4">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Gym
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                Gym sessions have become an integral part of my daily routine.
+                The exhilarating rush of endorphins that accompanies a good
+                workout is unmatched. Not only does it keep me physically fit,
+                but it also serves as a great stress buster, allowing me to
+                refocus and re-energize for the day ahead.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item mb-4">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Bicycling
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <h3>To school</h3>
+              <p>
+                Opting for a bicycle as my mode of transportation to school has
+                been both environmentally friendly and health-conscious. It's a
+                refreshing way to kick-start my day, allowing me to enjoy the
+                fresh morning breeze and scenic views along the way, all while
+                reducing my carbon footprint.
+              </p>
+              <h3>For fun</h3>
+              <p>
+                Bicycling for leisure is an exhilarating experience. Exploring
+                picturesque trails and cycling routes has become one of my
+                favorite pastimes. It not only keeps me active but also provides
+                an opportunity to appreciate the beauty of nature and embrace a
+                sense of freedom and adventure.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item mb-4">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Hanging out with the boys
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                Spending quality time with my close-knit group of friends is
+                something I cherish deeply. Whether it's engaging in spirited
+                discussions, playing competitive sports, or simply enjoying each
+                other's company, these moments contribute significantly to my
+                sense of belonging and well-being.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item mb-4">
+          <h2 class="accordion-header" id="headingFour">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              Web development
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                Web development has been a passion of mine since an early age.
+                The ability to create visually appealing and functional websites
+                is a source of endless excitement and satisfaction. From coding
+                to designing, every aspect of the process fuels my creativity
+                and allows me to stay updated with the latest technological
+                advancements, fostering a continuous learning journey.
+              </p>
+              <p>
+                During this past summer, I teamed up with two of my friends to
+                work on an exciting project. We've been developing an engaging
+                online platform for a unique drinking game that infuses
+                traditional party activities with a digital twist. Our aim is to
+                bring people together virtually, creating unforgettable and
+                hilarious moments, even from a distance. To learn more about
+                this project and my other experiences in web development, you
+                can visit my <a href="experience.html">experience</a> tab.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item mb-4">
+          <h2 class="accordion-header" id="headingFive">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              Benefits
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <table>
+                <tr>
+                  <th>Activity</th>
+                  <th>Benefits</th>
+                </tr>
+                <tr>
+                  <td>Gym</td>
+                  <td>Physical fitness, stress relief</td>
+                </tr>
+                <tr>
+                  <td>Bicycling</td>
+                  <td>
+                    Environmental friendliness, health benefits, adventure
+                  </td>
+                </tr>
+                <tr>
+                  <td>Hanging out with the boys</td>
+                  <td>Social bonding, emotional well-being</td>
+                </tr>
+                <tr>
+                  <td>Web development</td>
+                  <td>
+                    Creative expression, technological advancement, continuous
+                    learning
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="row">
       <div class="col-md m-auto"><p>&copy;Joppe Hermans</p></div>
