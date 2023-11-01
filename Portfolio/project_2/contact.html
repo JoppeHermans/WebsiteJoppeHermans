@@ -136,9 +136,9 @@
       </div>
     </nav>
     <main class="container">
-      <article>
-        <h2>Contact me</h2>
-        <p>
+      <article class="mb-4">
+        <h2 class="mb-4">Contact me</h2>
+        <p class="mb-4">
           Feel free to get in touch with me via email at
           <a href="mailto:joppehermans.contact@gmail.com"
             >joppehermans.contact@gmail.com</a
@@ -147,13 +147,19 @@
           I'm looking forward to hearing from you!
         </p>
         <form action="mailto:joppehermans.contact@gmail.com" method="post">
-          <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" />
-          </div>
+          <section class="row">
+            <div class="col-md">
+              <label for="name">Last name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="col-md">
+              <label for="surname">Surname:</label>
+              <input type="text" id="surname" name="surname" required />
+            </div>
+          </section>
           <div>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" />
+            <input type="email" id="email" name="email" required />
           </div>
           <div>
             <label for="subject">Subject:</label>
@@ -189,7 +195,6 @@
       <div class="col-md m-3">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.1542159454893!2d4.9588240769730145!3d51.16094623595332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c14c011b4bcb87%3A0xb5b970e9f2a6ce42!2sThomas%20More%20-%20Campus%20Geel!5e0!3m2!1snl!2sbe!4v1698766214215!5m2!1snl!2sbe"
-          width="100%"
           height="300"
           allowfullscreen=""
           loading="lazy"
