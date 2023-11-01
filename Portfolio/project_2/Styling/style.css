@@ -76,3 +76,20 @@ header {
   i:hover {
     color: #e04747;
   }
+  .custom-btn {
+    color:white;
+    background-color: #FF6B6B;
+    text-shadow: 1px 1px 1px black;
+    border: 2px solid black;
+  }
+  .custom-btn:hover {
+    color:white;
+    background-color: #e04747;
+    border: 2px solid black;
+
+  }
+  .jumbotron {
+    
+    border: 6px solid #FF6B6B;
+    border-radius: 20px;
+  }

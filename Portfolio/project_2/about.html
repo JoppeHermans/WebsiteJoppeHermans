@@ -9,7 +9,7 @@
       href="Images/portfolio_icon.ico"
       type="image/x-icon"
     />
-    <title>Contact</title>
+    <title>Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
@@ -25,7 +25,7 @@
   <body>
     <header>
       <div>
-        <h1>Contact</h1>
+        <h1>About me</h1>
       </div>
     </header>
     <nav class="navbar navbar-expand-lg mb-4">
@@ -135,44 +135,31 @@
         </div>
       </div>
     </nav>
-    <main class="container">
-      <article>
-        <h2>Contact me</h2>
-        <p>
-          Feel free to get in touch with me via email at
-          <a href="mailto:joppehermans.contact@gmail.com"
-            >joppehermans.contact@gmail.com</a
-          >
-          for any inquiries, collaboration opportunities, or just to say hello.
-          I'm looking forward to hearing from you!
-        </p>
-        <form action="mailto:joppehermans.contact@gmail.com" method="post">
-          <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" />
-          </div>
-          <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" />
-          </div>
-          <div>
-            <label for="subject">Subject:</label>
-            <input type="text" id="subject" name="subject" />
-          </div>
-          <div>
-            <label for="message">Message:</label>
-            <textarea
-              id="message"
-              name="message"
-              rows="10"
-              cols="80"
-            ></textarea>
-          </div>
-          <div>
-            <input type="submit" value="Send" />
-            <input type="reset" value="Reset" />
-          </div>
-        </form>
+
+    <main class="container mb-4">
+      <article class="row">
+        <h2 class="mb-4">About me</h2>
+        <img
+          src="Images/picture_of_myself.jpg"
+          alt="Picture of me"
+          class="img-fluid col-md-5 mb-4"
+        />
+        <div class="col">
+          <p>
+            Hi, I'm Joppe Hermans, born on October 11th, 2003. I'm really into
+            IT, especially web design. I love creating cool websites that look
+            great and work smoothly. The internet is my playground, and I'm
+            always learning new stuff to make websites awesome. When I'm not
+            online, I'm just enjoying life. Take a look around my website to see
+            my work. Thanks for visiting!
+          </p>
+          <p>
+            Currently, I am a student at Thomas More Geel, where I am furthering
+            my understanding of various programming languages and techniques. My
+            time at Thomas More Geel has provided me with valuable insights and
+            a strong foundation to excel in the dynamic world of programming.
+          </p>
+        </div>
       </article>
     </main>
     <footer class="row">
@@ -198,6 +185,7 @@
         ></iframe>
       </div>
     </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
